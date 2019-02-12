@@ -9,14 +9,14 @@ pacman::p_load(
   "plyr"
 )
 
-setwd("C:\Users\usuario\Desktop\UBIQUM\Project 5 - Product Associacions\Market Basket Analysis")               
+setwd("C:/Users/usuario/Desktop/UBIQUM/Project 5 - Product Associacions/Market-Basket")               
 
 #### read transactions ####
 tr<-  read.transactions("./ElectronidexTransactions2017correcta.csv", format = "basket", sep = ',', rm.duplicates = TRUE)
 summary(tr)
 
 #### read category ####
-cat<- read.csv("C:\Users\usuario\Desktop\UBIQUM\Project 5 - Product Associacions\Market Basket Analysis\categories.csv",strip.white = TRUE) 
+cat<- read.csv("C:/Users/usuario/Desktop/UBIQUM/Project 5 - Product Associacions/Market-Basket/categories.csv",strip.white = TRUE) 
 str(cat)
 
 #### read transactions per category ####
