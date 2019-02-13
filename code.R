@@ -16,11 +16,11 @@ tr<-  read.transactions("./ElectronidexTransactions2017correcta.csv", format = "
 summary(tr)
 
 #### read category ####
-cat<- read.csv("C:/Users/usuario/Desktop/UBIQUM/Project 5 - Product Associacions/Market-Basket/categories.csv",strip.white = TRUE) 
+cat<- read.csv("./categories.csv",strip.white = TRUE) 
 str(cat)
 
 #### read transactions per category ####
-trcat <- read.transactions("C:/Users/raul9/Documents/task4/ElectronidexTransactions2017forcategory.csv", format = "basket", sep = ',', rm.duplicates = TRUE)
+trcat <- read.transactions("./ElectronidexTransactions2017forcategory.csv", format = "basket", sep = ',', rm.duplicates = TRUE)
 summary(trcat)
 
 #### explore trcat ####
