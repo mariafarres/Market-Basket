@@ -13,3 +13,12 @@ Moreover, if the company was worth acquiring, the interesting relationships (or 
 ## Technical Analysis
 **Language used:** R programming 
 
+**1. READ TRANSACTIONAL DATA**
+
+**2. PORTFOLIO ANALYSIS** 
+- Find similarities and possible complementary characteristics between the portfolio of our client and the start-up's one.
+
+- **Find association rules in the start-up's portfolio** Apriori to detect the rules or relationships between customer’s transactions and the item(s) they’ve purchased. Thus, may be used to run cross-selling campaigns once the acquisition is done; and for our client to detect customers' buying patterns in electronics.
+
+**3. CLIENTELE ANALYSIS (B2B & B2C)**
+- Find useful information about the start-up's clientele hidden in the transactional data -> Do they have B2B data base that enriches our client's B2C clientele?
