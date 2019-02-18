@@ -1,9 +1,9 @@
-##################################################
+
 ## Project: Market Basket Analysis - eCommerce
 ## Script purpose: look for association rules between products in Electronidex
-## Date: 2 Jan 2018
+## Date: 2 Jan 2019
 ## Author: Maria Farrés
-##################################################
+
 
 #################################### SET ENVIRONMENT########################################
 
@@ -97,7 +97,7 @@ ggplot(data = tr_catfreq_df) +                          # both product portfolio
 
 
 
-
+# Now that we know 
 #### apriori ####
 rules <- apriori(tr_cat, 
                  parameter = list(supp = 0.006, conf = 0.6,
